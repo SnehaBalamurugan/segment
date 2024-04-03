@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.blue-border {
+  border: 2px solid #489db4; /* Set border width and color */
+  padding: 10px; /* Optional: Add padding to create some space inside the div */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
